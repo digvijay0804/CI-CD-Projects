@@ -1,0 +1,41 @@
+employee:
+  - name: gaurav halnawar
+    age: 24
+    department: engineering
+    skills:
+    - python 
+    - AWS
+    - Azure
+    - Docker
+    address: 
+    street: pune 
+    city: maharashtra
+
+employee2:
+  - name: anita sharma  
+    age: 26
+    department: marketing
+    skills:
+      - SEO 
+      - content writing
+      - social media
+    address:
+      street: nagpur
+      city: maharashtra
+
+  - name: tejas kumar
+    age: 28
+    department: sales
+    skills:
+      - negotiation
+      - customer service
+      - CRM
+    address:
+      street: mumbai
+      city: maharashtra
+
+
+
+
+
+  

@@ -1,0 +1,22 @@
+{
+    "name": "hello devops",
+    "course": "cloud and devops",
+    "tolls": [
+        "linux",
+        "bash scrpting",
+        "docker",
+        "git gitthub",
+        "githubactions"
+
+    ],
+    "tolls_remainig": [
+        "kubernates",
+        "terraform",
+        "ansible",
+        "aws",
+        "monitoring",
+        "python"
+
+    ]
+}
+
