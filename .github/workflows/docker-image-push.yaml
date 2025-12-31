@@ -12,9 +12,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -t "${{ secrets.DOCKER_HUB_USERNAME }}/github-action-project:latest" .
+        run: docker build -t gauravhalnawar2705/github-action-project:latest .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" -p "${{ secrets.DOCKER_HUB_TOKEN }}"
-          docker push "${{ secrets.DOCKER_HUB_USERNAME }}/github-action-project:latest"
+          docker login -u gauravhalnawar2705 -p "${{ secrets.DOCKER_HUB_TOKEN }}"
+          docker push gauravhalnawar2705/github-action-project:latest
